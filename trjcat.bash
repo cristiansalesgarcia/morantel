@@ -1,7 +1,7 @@
 #!/bin/csh -f
 
-set cnt    = 1
-set cntmax = 147
+set cnt    = #FIRST TRAJECTORY YOU ARE CONCATENATING, SHOWN AT THE STEPx_[HERE]
+set cntmax = #THE TOTAL NUMBER OF COMPLETE RUNS YOU WANT TO CONCATENATE
 
 echo "1" > instructions.dat
 echo "0" >> instructions.dat
