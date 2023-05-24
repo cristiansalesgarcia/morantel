@@ -20,7 +20,7 @@ while loop:
     if (r1 or r2)%2 == 1 or (r1 or r2)%2 == 0:
         f = open('file_input.txt','w')
         for i in fileList(r1,r2):
-            f.write(i + ' ')
+            f.write(i + '.xtc ')
         f.close()
         loop=False
     else: print('%f is not a valid number'%(n))
